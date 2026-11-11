@@ -1,0 +1,17 @@
+package labs.lab10.cardgame;
+
+import javax.swing.*;
+
+public class HumanPlayer extends CardPlayer {
+
+
+
+	public HumanPlayer(int maxCards) {
+		super(maxCards);
+	}
+
+	public boolean wantsACard() {
+		String response = JOptionPane.showInputDialog("한장 더 드릴까요? (Y/N)");
+		return response.equals("Y");
+	}
+}
