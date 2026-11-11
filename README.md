@@ -32,11 +32,50 @@ Java(JDK)와 IntelliJ IDEA 환경을 기준으로 합니다.
 | 10 | 상속과 인터페이스를 활용한 재사용 | 상속, instanceof, 카드 게임 Dealer |
 | 11 | GUI와 이벤트 구동 프로그래밍 ① | 양궁 과녁, 크기·색이 변하는 공, 퍼즐 GUI |
 
+## 소스코드 내려받기
+
+아래 세 방법 중 편한 것 하나를 고르세요. git을 처음 쓴다면 **방법 1**이 가장 쉽습니다.
+
+### 방법 1. ZIP 파일로 내려받기 (git 없이)
+
+1. 웹 브라우저로 저장소 페이지 <https://github.com/Hyunha/2026COM2018> 에 접속합니다.
+2. 파일 목록 위의 초록색 **`<> Code`** 버튼을 누릅니다.
+3. 펼쳐진 메뉴 맨 아래의 **Download ZIP** 을 누릅니다.
+4. 내려받은 `2026COM2018-main.zip` 의 압축을 풉니다.
+   - Windows: 파일을 우클릭 → **압축 풀기(모두 추출)**
+   - macOS: 파일을 더블클릭
+5. 압축을 푼 `2026COM2018-main` 폴더를 아래 [사용 방법](#사용-방법)대로 IntelliJ에서 엽니다.
+
+> ZIP으로 받은 폴더는 저장소가 바뀌어도 저절로 갱신되지 않습니다.
+> 새 주차 코드가 올라오면 같은 방법으로 다시 내려받으세요.
+
+### 방법 2. IntelliJ IDEA에서 바로 가져오기
+
+git이 설치되어 있지 않아도 IntelliJ가 설치를 안내해 줍니다.
+
+1. IntelliJ 시작 화면에서 **Clone Repository** (또는 메뉴 **File → New → Project from Version Control...**) 를 누릅니다.
+2. **URL** 칸에 `https://github.com/Hyunha/2026COM2018.git` 를 붙여 넣습니다.
+3. **Directory** 에서 저장할 위치를 고르고 **Clone** 을 누릅니다.
+4. 새 주차 코드가 올라오면 메뉴 **Git → Pull...** 로 최신 내용을 받을 수 있습니다.
+
+### 방법 3. 명령줄에서 git 사용
+
+```bash
+git clone https://github.com/Hyunha/2026COM2018.git
+cd 2026COM2018
+
+# 이후 새 내용 받기
+git pull
+```
+
+> 실습 뼈대 코드를 고쳐서 과제를 하는 경우, 방법 2·3으로 받은 폴더에서 `git pull` 을 하면
+> 내가 고친 파일과 충돌할 수 있습니다. 과제는 뼈대 코드를 **복사한 별도 프로젝트**에서 하는 것을 권장합니다.
+
 ## 사용 방법
 
 ### IntelliJ IDEA
 
-1. 저장소 폴더를 프로젝트로 엽니다.
+1. 내려받은 저장소 폴더를 IntelliJ에서 엽니다 (**File → Open...** → 폴더 선택).
 2. 사용할 디렉토리(`lectures`, `labs-skeleton`, `labs-solution` 중 하나 이상)를 우클릭하여
    **Mark Directory as → Sources Root** 로 지정합니다.
    `labs-skeleton` 과 `labs-solution` 은 같은 클래스 이름이 겹치므로 동시에 지정하지 마세요.
