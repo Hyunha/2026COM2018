@@ -11,7 +11,7 @@ Java(JDK)와 IntelliJ IDEA 환경을 기준으로 합니다.
 |---|---|---|
 | `lectures/` | 이론 수업 예제 코드 (`chapters.weekNN` 패키지) | 1~12주차 |
 | `labs-skeleton/` | 실습 뼈대 코드 — 실습 시간에 이 코드에서 시작합니다 (`labs.labNN` 패키지) | 실습 1~12 |
-| `labs-solution/` | 실습 답안 코드 (`labs.labNN` 패키지) | 실습 1~11 |
+| `labs-solution/` | 실습 답안 코드 (`labs.labNN` 패키지) | 실습 1~12 |
 
 - 4주차 이론 예제는 슬라이드 안에서만 다루므로 별도 코드가 없습니다.
 - 8주차는 중간고사라서 이론·실습 코드가 없습니다.
@@ -113,7 +113,7 @@ java -cp out-lab labs.lab01.Clock
 
 Source code for COM2018 Object-Oriented Programming (Hanyang University ERICA, Fall 2026):
 lecture examples for weeks 1–12 (`lectures/`), lab skeletons for labs 1–12 (`labs-skeleton/`),
-and lab solutions for labs 1–11 (`labs-solution/`).
+and lab solutions for labs 1–12 (`labs-solution/`).
 
 Many of the examples are adapted from *Programming Principles in Java: Architectures and Interfaces*
 by David A. Schmidt (Kansas State University); copyright in the original text and in many of the
