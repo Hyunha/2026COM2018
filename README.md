@@ -9,7 +9,7 @@ Java(JDK)와 IntelliJ IDEA 환경을 기준으로 합니다.
 
 | 디렉토리 | 내용 | 범위 |
 |---|---|---|
-| `lectures/` | 이론 수업 예제 코드 (`chapters.weekNN` 패키지) | 1~12주차 |
+| `lectures/` | 이론 수업 예제 코드 (`chapters.weekNN` 패키지) | 1~13주차 |
 | `labs-skeleton/` | 실습 뼈대 코드 — 실습 시간에 이 코드에서 시작합니다 (`labs.labNN` 패키지) | 실습 1~12 |
 | `labs-solution/` | 실습 답안 코드 (`labs.labNN` 패키지) | 실습 1~12 |
 
@@ -32,6 +32,7 @@ Java(JDK)와 IntelliJ IDEA 환경을 기준으로 합니다.
 | 10 | 상속과 인터페이스를 활용한 재사용 | 상속, instanceof, 카드 게임 Dealer |
 | 11 | GUI와 이벤트 구동 프로그래밍 ① | 양궁 과녁, 크기·색이 변하는 공 |
 | 12 | GUI와 이벤트 구동 프로그래밍 ②: 메뉴, 람다, 애니메이션 | 두근거리는 공, 카운터 버튼, 퍼즐 게임 (GUI) |
+| 13 | 텍스트와 파일 처리 ① | — |
 
 ## 소스코드 내려받기
 
@@ -112,7 +113,7 @@ java -cp out-lab labs.lab01.Clock
 ## English summary
 
 Source code for COM2018 Object-Oriented Programming (Hanyang University ERICA, Fall 2026):
-lecture examples for weeks 1–12 (`lectures/`), lab skeletons for labs 1–12 (`labs-skeleton/`),
+lecture examples for weeks 1–13 (`lectures/`), lab skeletons for labs 1–12 (`labs-skeleton/`),
 and lab solutions for labs 1–12 (`labs-solution/`).
 
 Many of the examples are adapted from *Programming Principles in Java: Architectures and Interfaces*
