@@ -4,3 +4,7 @@ out-lab/
 .idea/
 *.iml
 .DS_Store
+
+# 실습·예제를 실행하면 생기는 출력 파일
+*.out.csv
+poem.txt
